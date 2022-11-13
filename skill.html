@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/skill.css" />
+    <!-- css bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+    />
+    <title>My Skills</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">MathQnADEV</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Back to the Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <!-- <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form> -->
+          </div>
+        </div>
+      </nav>
+    <!-- navbar end -->
+    <div class="scrollspy-example pt-2 mt-5">
+        <div class="d-flex justify-content-center align-items-center mt-2 ">
+            <div class="d-sm-flex bg-dark rounded p-2">
+                <div class="card m-2" style="width: 18rem;">
+                    <div class="card-body">
+                    <h5 class="card-title">Frontend Development</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">HTML, CSS, Javascript, Bootstrap</h6>
+                    <p class="card-text">I really enjoy doing Frontend stuff and i enjoy doing styling on Website using Javascript</p>
+                    <a href="https://github.com/MathQnADEV" class="card-link">Lihat Portofolio</a>
+              <!-- <a href="#" class="card-link">Another link</a> -->
+            </div>
+          </div>
+          <div class="card m-2" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Backend Development</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Javascript, Python, PHP, Go</h6>
+                    <p class="card-text">I like to count and have a pretty good algorithm. Usually i enjoy doing api service stuff xd</p>
+                    <a href="https://github.com/MathQnADEV" class="card-link">Lihat Portofolio</a>
+                </div>
+          </div>
+            <div class="card m-2" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Database</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Mysql, MongoDB</h6>
+              <p class="card-text">I like to relate with anyone including Database table. I'm just kidding haha</p>
+              <a href="https://github.com/MathQnADEV" class="card-link">Lihat Portofolio</a>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="d-flex justify-content-center my-2">
+        <button class="btn btn-dark mx-2" onclick="goToWhatsapp()">Call me on WhatsApp</button>
+        <button class="btn btn-dark mx-2">Call me on Telegram</button>
+    </div>
+    <!-- botttom footer -->
+    <div class="d-flex fixed-bottom justify-content-center bg-dark w-100 text-light mt-5">
+        <div class="p-2">
+            <h3>Copirek by MathQnADEV</h3>
+        </div>
+    </div>
+    
+    <!-- bottom footer end -->
+</div>
+        
+<script>
+    function goToWhatsapp(){
+        window.location.href = "https://api.whatsapp.com/send?phone=6281280946366&text=hello%20cuy%2C%20salam%20kenal"
+    }
+</script>
+
+
+    <!-- javascript bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

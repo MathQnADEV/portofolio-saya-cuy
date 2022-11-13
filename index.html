@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/index.css" />
+    <!-- css bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+    />
+    <title>MathQnADEV</title>
+  </head>
+  <body">
+    <!-- navbar -->
+    <div>
+    <nav class="navbar fixed-top navbar-expand-lg bg-dark navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#myCard">MathQnADEV</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <!-- <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form> -->
+        </div>
+      </div>
+    </nav>
+</div>
+    <!-- navbar end -->
+
+    <!-- carousel -->
+    <div
+      id="carouselExampleControls"
+      class="carousel slide mt-5"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="./assets/img/banner1.jpg"
+            class="d-block w-100"
+            alt="..."
+            height="400"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./assets/img/banner2.jpeg"
+            class="d-block w-100"
+            alt="..."
+            height="400"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./assets/img/banner3.jpg"
+            class="d-block w-100"
+            alt="..."
+            height="400"
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- carousel end -->
+
+    <!-- card -->
+    <div class="d-flex p-2 mt-2 justify-content-center align-items-center mb-5" id="myCard">
+      <div class="d-sm-flex">
+        <div class="card m-2 shadow-sm" style="width: 18rem">
+          <img
+            src="./assets/img/daisuke_kanbe_by_mizuunie_dduyrhg-fullview-removebg-preview.png"
+            class="card-img-top"
+            width="200"
+            height="200"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Shaquille Rashaun</h5>
+            <p class="card-text">
+              Halo saya Junior Programmer yang siap bekerja sama dengan anda
+            </p>
+            <a href="skill.html" class="btn btn-primary">Lihat Skill Saya</a>
+          </div>
+        </div>
+        <div class="card m-2 shadow-sm" style="width: 18rem">
+          <img
+            src="./assets/img/Ranch.jpg"
+            class="card-img-top"
+            alt="..."
+            width="200"
+            height="200"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Ranch Devloperx Agency</h5>
+            <p class="card-text">
+              Ranch Devloperx adalah sebuah Agency yang bergerak di bidang IT
+            </p>
+            <a href="#" class="btn btn-primary">Lihat Harga Jasa</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- card end -->
+<div class="d-flex fixed-bottom justify-content-center bg-dark w-100 text-light mt-5">
+    <div class="p-2">
+        <h3>Copirek by MathQnADEV</h3>
+    </div>
+</div>
+
+    <!-- javascript bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
